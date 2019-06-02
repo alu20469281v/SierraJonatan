@@ -1,6 +1,6 @@
 package calculadora;
 
-public class RPN {
+public class Programa {
 
 		public void pushPila(double nuevo_dato) {
 		NodoPila nuevo_nodo = new NodoPila(nuevo_dato, arriba); 
@@ -13,7 +13,7 @@ public class RPN {
 		return dato_arriba;
 		}
 		
-		public RPN(String commando) { 
+		public Programa(String commando) { 
 			arriba = null;
 			this.commando = commando;
 		}
